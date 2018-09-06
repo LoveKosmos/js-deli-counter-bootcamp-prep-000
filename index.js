@@ -8,7 +8,7 @@ function nowServing(line){
   for ( let i=0; i<line.length; i++){
      var next = (`Currently serving `+`${line[i]}`+ `.`)
   } 
-  line.shift(i);
+  line.shift(line[i]);
   if (line.length<=0){
   next = "There is nobody waiting to be served!"
 }
