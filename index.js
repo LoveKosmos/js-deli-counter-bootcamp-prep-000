@@ -17,8 +17,7 @@ return next
 
 function currentLine(line){
   if (line.length>0){
-    `
-    
+    `The line is currently:` + `${[i]}` + `
   }else{
     "The line is currently empty."
   }
