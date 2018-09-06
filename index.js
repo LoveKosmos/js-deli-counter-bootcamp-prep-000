@@ -5,7 +5,7 @@ function takeANumber(line, curr){
   }
 }
 function nowServing(line){
-  for ( let i=0; i<line.length; i++){
+  for ( let i=0; i<line.length; i=){
      var next = (`Currently serving `+`${line[i]}`+ `.`)
      line.shift[i];
   }
