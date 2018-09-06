@@ -17,9 +17,10 @@ return next
 
 function currentLine(line){
   if (line.length>0){
+    `
     
   }else{
-    
+    "The line is currently empty."
   }
   
 }
