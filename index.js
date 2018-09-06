@@ -5,10 +5,9 @@ function takeANumber(line, curr){
   }
 }
 function nowServing(line){
-  var next = (`Currently serving `+`${line[i]}`+ `.`);
-  line.shift(i);
-  }
-  if (line.length === 0){
+  for ( let i=0; i<line.length; line.shift(i)){
+     var next = (`Currently serving `+`${line[i]}`+ `.`)
+  } while (line.length<0){
   next = "There is nobody waiting to be served!"
 }
 return next
