@@ -1,7 +1,18 @@
+var line = []
+for 
+
 function takeANumber(line, curr){
   line.push(curr);
   for ( let i=0; i<=line.length; i++){
      return (`Welcome,`+ ` ${curr}`+`. You are number` + ` ${line.length} `+`in line.`);
+  }
+}function currentLine(line){
+  for ( let i=0; i<=line.length; i++){
+  if (line.length<0){
+    "The line is currently:" + line.join(i+1,line[i])
+  }else{
+    "The line is currently empty."
+  }
   }
 }
 function nowServing(line){
@@ -15,12 +26,3 @@ function nowServing(line){
 return next
 }
 
-function currentLine(line){
-  for ( let i=0; i<=line.length; i++){
-  if (line.length<0){
-    "The line is currently:" + line.join(i+1,line[i])
-  }else{
-    "The line is currently empty."
-  }
-  }
-}
