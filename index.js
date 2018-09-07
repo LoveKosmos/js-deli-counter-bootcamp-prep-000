@@ -2,6 +2,7 @@ function takeANumber(katzDeli, name) {
   katzDeli.push(`${name}`);
   return(`Welcome, ${name}. You are number ${katzDeli.length} in line.`);
 }
+function takeANumber(katzDeli,nowServing){
 function nowServing(katzDeli) {
   let i = 0;
   while (i < katzDeli.length) {
@@ -13,5 +14,6 @@ function nowServing(katzDeli) {
   else
   return (`Currently serving ${katzDeli.shift()}.`);
 }	}
+}
 
 
