@@ -1,5 +1,5 @@
 var line = []
-for 
+for  ( let i=0; i<=line.length; i++){
 
 function takeANumber(line, curr){
   line.push(curr);
